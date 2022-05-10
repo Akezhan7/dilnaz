@@ -4,7 +4,7 @@ if (isset($_POST['email'])) {$mailsd = $_POST['email'];}
 if (isset($_POST['message'])) {$msgs = $_POST['message'];}
  
 /* Сюда впишите свою эл. почту */
-$myaddres  = "dilnaz.byrzhan@mail.ru"; // кому отправляем
+$myaddres  = "dedok3@list.ru"; // кому отправляем
  
 /* А здесь прописывается текст сообщения, \n - перенос строки */
 $mes = "Тема: Заказ сайта!\nПочта: $mailsd\nСообщение: $msgs";
